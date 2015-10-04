@@ -1,8 +1,8 @@
 # performance_test
 
 ### Go
-- beego
-- gin
+- beego => bee run beego_sample
+- gin => go run server.go
 
 ### Ruby
 - Sinatra => ruby server.rb
