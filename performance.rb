@@ -2,10 +2,17 @@
 
 require 'net/http'
 require 'uri'
+require 'json'
+require 'benchmark'
 
-url = URI.parse('127.0.0.0.1:3000')
-res = Net::HTTP.start(url.host, url.port) {|http|
-  http.get('/index.html')
-}
+Benchmark.bm 10 do |r|
+  r.report do
+    100.times do
 
-puts res.body
+      uri = URI.parse('http://localhost:3000')
+      json = Net::HTTP.get(uri)
+
+      puts json
+    end
+  end
+end
