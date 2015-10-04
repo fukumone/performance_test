@@ -5,8 +5,8 @@
 - gin
 
 ### Ruby
-- Sinatra
-- Ruby On Rails
+- Sinatra => ruby server.rb
+- Ruby On Rails => rails s
 
 ### python
-- flask
+- flask => python server.py
