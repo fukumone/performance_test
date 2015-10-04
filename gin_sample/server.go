@@ -5,7 +5,7 @@ import "github.com/gin-gonic/gin"
 func main() {
     r := gin.Default()
     r.GET("/", func(c *gin.Context) {
-        c.String(200, "Hello World")
+        c.JSON(200, gin.H{"response": "OK"})
     })
     r.Run(":8080") // listen and serve on 0.0.0.0:8080
 }
