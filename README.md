@@ -18,6 +18,6 @@
 ### test command
 
 ```
-rake "perfomance["port number"]"
-# => rake "perfomance["3000"]"
+rake perfomance["port number"]
+# example => rake perfomance["3000"]
 ```
