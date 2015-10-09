@@ -18,8 +18,8 @@
 ### test command
 
 ```
-go run http_request -port="port number"
-# example => go run http_request.go -port=3000
+go run performance.go -port="port number"
+# example => go run performance.go -port=3000
 
 rake perfomance["port number"]
 # example => rake perfomance["3000"]
