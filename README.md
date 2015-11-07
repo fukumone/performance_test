@@ -5,7 +5,7 @@
 - gin => go run server.go
 - goji => go run server.go
 - martini => go run server.go
-- revel => revel run github.com/myaccount/revel_sample
+- revel => revel run github.com/t-fukui/revel_sample
 
 ### Ruby
 - Sinatra => ruby server.rb
