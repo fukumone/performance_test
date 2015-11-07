@@ -14,7 +14,7 @@
 ### python
 - flask => python server.py
 
-### javascript
+### node.js
 - Express => DEBUG=express_sample:* npm start
 
 ### test command
